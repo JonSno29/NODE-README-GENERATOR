@@ -29,7 +29,7 @@ const questions = [{
     message: 'What licenses did you use?',
 },{
     type: 'input',
-    name: 'Contributing',
+    name: 'Contributions',
     message: 'Who contributed to this project?',
 },{
     type: 'input',
@@ -41,7 +41,7 @@ const questions = [{
     message: 'Links to repo and/or live webpage please',
 },{
     type: 'input',
-    name: 'Contact For Questions',
+    name: 'Contact',
     message: 'Please enter your e-mail',
 
 }];
