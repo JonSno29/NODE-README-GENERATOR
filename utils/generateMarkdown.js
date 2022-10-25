@@ -1,6 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {const licensePicked = data.license;
+function renderLicenseBadge(data) {const licensePicked = data.license;
 
   let licenseBadge = "";
 
@@ -30,7 +30,7 @@ function renderLicenseBadge(license) {const licensePicked = data.license;
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(data) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -77,7 +77,10 @@ function generateMarkdown(data) {
   ${data.Installation}
   ## Usage
   In order to use this app,what do you do? ${data.Usage}
-  ${ renderLicenseSection(data)}
+  ${renderLicenseSection(data)}
+  ## License
+  List all License used.
+  ${data.License}
   ## Contributions
   Contributors: ${data.Contributions}
   ## Tests
