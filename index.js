@@ -25,8 +25,8 @@ const questions = [{
     message: 'What are the steps to use this application?',
 },{
     type: 'input',
-    name: 'Licenses',
-    message: 'What licenses did you use?',
+    name: 'License',
+    message: 'What license did you use?',
 },{
     type: 'input',
     name: 'Contributions',
