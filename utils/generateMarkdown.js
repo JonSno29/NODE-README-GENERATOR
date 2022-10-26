@@ -1,7 +1,8 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(data) {const licensePicked = data.license;
-
+function renderLicenseBadge(data) {
+  const licensePicked = data.license;
+  
   let licenseBadge = "";
 
   if (licensePicked === "MIT") {
@@ -71,26 +72,23 @@ function generateMarkdown(data) {
   ${renderLicenseTableOfContents(data)}
   * [Contributions](##contributions)
   * [Tests](##test)
+  * [GitHub](##github)
   * [Questions](##questions)
+  * [Contact](##contact)
 ## Installation
-  The following necessary dependencies must be installed to run the application: 
   ${data.Installation}
   ## Usage
-  In order to use this app,what do you do? ${data.Usage}
+  ${data.Usage}
   ${renderLicenseSection(data)}
-  ## License
-  List all License used.
   ${data.License}
   ## Contributions
   Contributors: ${data.Contributions}
   ## Tests
-  The following is needed to run tests: ${data.Test}
+  ${data.Test}
   ## GitHub
-  Add GitHub Repository and/or LiveWebpage.
   ${data.GitHub}
   ## Questions
-  If you have any questions about the repository contact
-  directly at : ${data.Questions}
+  ${data.Questions}
   ## Contact
   ${data.Contact}
 

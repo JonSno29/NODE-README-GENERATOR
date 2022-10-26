@@ -24,9 +24,10 @@ const questions = [{
     name: 'Usage',
     message: 'What are the steps to use this application?',
 },{
-    type: 'input',
+    type: 'list',
     name: 'License',
     message: 'What license did you use?',
+    choices: ['None', 'MIT', 'Apache', 'Boost', 'BDS 3-Clause'],
 },{
     type: 'input',
     name: 'Contributions',
@@ -50,7 +51,7 @@ const questions = [{
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, function(err) {
     console.log(data)
-    err ? console.log(err) : console.log("README.md has successfully been generated!");
+    err ? console.log(err) : console.log("README.md has successfully been generated!!!");
     })
 }
 
