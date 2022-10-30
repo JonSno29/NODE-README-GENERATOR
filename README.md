@@ -1,6 +1,5 @@
 
-# d
-  d
+# node-readme-gen
 # Description
   d
 # Table Of Contents
@@ -12,21 +11,20 @@
   * [contact](#contact)
 * [license](#license)
 # Installation
-  d
-  # Usage
-  d
-  # License
+  f
+# Usage
+          
+# License
   *
-    [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  # Contributions
+    [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Contributions
   Contributors: 
-  
-  # Test
-  
-  # Questions
-  https://github.com/d/d
-  
-  # Contact
-  
+  jon
+# Test
+  f
+# Questions
+  https://github.com/jonsno29/node-readme-gen
+  snoverjon@gmail.com
+ 
 
   

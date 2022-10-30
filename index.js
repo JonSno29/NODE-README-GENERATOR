@@ -18,7 +18,7 @@ const questions = [{
 },{
     type: 'input',
     name: 'tableofcontents',
-    message: 'Table Of Contents?',
+    message: 'Table Of Contents, press enter',
 },{
     type: 'input',
     name: 'installation',
@@ -50,13 +50,8 @@ const questions = [{
     message: 'How did you test your application?',
 },{
     type: 'input',
-    name: 'questions',
-    message: 'Links to repo and/or live webpage please', 
-
-},{
-    type: 'input',
     name: 'contact',
-    message: 'Please enter your e-mail',
+    message: 'Please enter your google username',
 
 }];
 
