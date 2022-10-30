@@ -1,48 +1,53 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer")
 const fs = require("fs")
-const generateMarkdown = require("./utils/generateMarkdown")
+const generateMarkdown = require("./utils/generateMarkdown.js")
 // TODO: Create an array of questions for user input
 const questions = [{
     type: 'input',
-    name: 'Title',
+    name: 'title',
     message: 'What is the title of your project?'
 },{
     type: 'input',
-    name: 'Description',
+    name: 'github',
+    message: 'Enter your github username',
+},{
+     type: 'input',
+    name: 'description',
     message: 'Summary of your project',
 },{
     type: 'input',
-    name: 'Table Of Contents',
+    name: 'tableofcontents',
     message: 'Table Of Contents?',
 },{
     type: 'input',
-    name: 'Installation',
+    name: 'installation',
     message: 'What did you use to make this project work?',
 },{
     type: 'input',
-    name: 'Usage',
+    name: 'usage',
     message: 'What are the steps to use this application?',
 },{
     type: 'list',
-    name: 'License',
+    name: 'license',
     message: 'What license did you use?',
     choices: ['None', 'MIT', 'Apache', 'Boost', 'BDS 3-Clause'],
 },{
     type: 'input',
-    name: 'Contributions',
+    name: 'contributions',
     message: 'Who contributed to this project?',
 },{
     type: 'input',
-    name: 'Tests',
+    name: 'test',
     message: 'How did you test your application?',
 },{
     type: 'input',
-    name: 'GitHub',
-    message: 'Links to repo and/or live webpage please',
+    name: 'questions',
+    message: 'Links to repo and/or live webpage please', 
+
 },{
     type: 'input',
-    name: 'Contact',
+    name: 'contact',
     message: 'Please enter your e-mail',
 
 }];

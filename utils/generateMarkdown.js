@@ -6,7 +6,8 @@ function renderLicenseBadge(data) {
   let licenseBadge = "";
 
   if (licensePicked === "MIT") {
-    licenseBadge = "[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+    licenseBadge =
+     "[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
     return licenseBadge;
   }
   if (licensePicked === "Apache") {
@@ -19,11 +20,7 @@ function renderLicenseBadge(data) {
       "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
       return licenseBadge;
   }
-  if (licensePicked === "BDS 3-Clause") {
-    licenseBadge =
-      "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
-      return licenseBadge;
-  } if (licensePicked === 'None') {
+  if (licensePicked === 'None') {
     return licenseBadge;
   }
 
@@ -63,34 +60,33 @@ const renderLicenseTableOfContents = (data) => {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-# ${data.Title}
-## Description
-  ${data.Description}
-## Table of Contents
-  * [Installation](#installation)
-  * [Usage](#usage)
-  ${renderLicenseTableOfContents(data)}
-  * [Contributions](##contributions)
-  * [Tests](##test)
-  * [GitHub](##github)
-  * [Questions](##questions)
-  * [Contact](##contact)
-## Installation
-  ${data.Installation}
-  ## Usage
-  ${data.Usage}
+# ${data.title}
+  ${data.github}
+# Description
+  ${data.description}
+# Table Of Contents
+  * [installation](#installation)
+  * [usage](#usage)
+  * [contributions](#contributions)
+  * [test](#test)
+  * [questions](#questions)
+  * [contact](#contact)
+${renderLicenseTableOfContents(data)}
+# Installation
+  ${data.installation}
+  # Usage
+  ${data.usage}
   ${renderLicenseSection(data)}
-  ${data.License}
-  ## Contributions
-  Contributors: ${data.Contributions}
-  ## Tests
-  ${data.Test}
-  ## GitHub
-  ${data.GitHub}
-  ## Questions
-  ${data.Questions}
-  ## Contact
-  ${data.Contact}
+  # Contributions
+  Contributors: 
+  ${data.contributions}
+  # Test
+  ${data.test}
+  # Questions
+  https://github.com/${data.github}/${data.title}
+  ${data.questions}
+  # Contact
+  ${data.contact}
 
   `;
 }
