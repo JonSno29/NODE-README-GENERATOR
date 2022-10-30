@@ -1,8 +1,8 @@
 
-# node-readme-gen
-# Description
-  d
-# Table Of Contents
+# NODE_README_GENERATOR
+# DESCRIPTION:
+                                                                                                    In my opinion, every project must have a quality README. I have looked through hundreds of README  files and never would have guessed, they could be created using the command-line. In this project, I used Node.js, a command-line application that briskly generates a README.md file based on questions created by myself.
+# TABLE OF CONTENTS:
   * [installation](#installation)
   * [usage](#usage)
   * [contributions](#contributions)
@@ -10,21 +10,19 @@
   * [questions](#questions)
   * [contact](#contact)
 * [license](#license)
-# Installation
-  f
-# Usage
-          
-# License
+# INSTALLATION:
+                                                                                                                                                                                                            * git clone starter code to your local repository.                                                                                                                                                                                                      * Create .gitignore file before installing package dependencies.                                                                                                                                                                                        * Run npm install to install package dependencies as specified in the package.json.                                                                                                                                                                     * Inquirer will prompt you for your inputs from the command line.                                                                                                                                                                                       * The application will start by running node index.js in the command line.                                                                                                                                                                              * Answer the prompts in your command line to generate the README.                      
+# USAGE:
+  When you run node index.js in the command-line, a series of questions about GitHub, your project information and contact information will be prompted. Very user friendly, because you only have to answer the questions.        
+# LICENSE:
   *
-    [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-# Contributions
-  Contributors: 
-  jon
-# Test
-  f
-# Questions
-  https://github.com/jonsno29/node-readme-gen
-  snoverjon@gmail.com
- 
-
+    [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# CONTRIBUTIONS:
+  Jon Snover
+# TEST:
+  I created a back-up local repository for trial and error purposes.
+# QUESTIONS:
+  https://github.com/JonSno29/NODE_README_GENERATOR
+  
+  SnoverJon@gmail.com
   
