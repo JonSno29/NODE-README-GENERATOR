@@ -1,6 +1,6 @@
 
-# node-README-Gen
-  JonSno29
+# d
+  d
 # Description
   d
 # Table Of Contents
@@ -10,22 +10,23 @@
   * [test](#test)
   * [questions](#questions)
   * [contact](#contact)
-* [License](#license)
+* [license](#license)
 # Installation
   d
   # Usage
   d
   # License
+  *
     [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   # Contributions
   Contributors: 
-  Jon Snover
+  
   # Test
-  doubled
+  
   # Questions
-  https://github.com/JonSno29/node-README-Gen
-  ok
+  https://github.com/d/d
+  
   # Contact
-  Snoverjon
+  
 
   

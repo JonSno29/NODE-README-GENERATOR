@@ -31,7 +31,15 @@ const questions = [{
     type: 'list',
     name: 'license',
     message: 'What license did you use?',
-    choices: ['None', 'MIT', 'Apache', 'Boost', 'BDS 3-Clause'],
+    choices: ['None', 'MIT', 'Apache', 'Boost'],
+    validate: (licenseInput) => {
+        if (licenseInput)  {
+          return true;
+        } else {
+          console.log("Please enter a license!");
+          return false;
+        } 
+    }
 },{
     type: 'input',
     name: 'contributions',
