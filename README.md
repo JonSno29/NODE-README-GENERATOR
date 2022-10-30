@@ -1,5 +1,5 @@
 
-# NODE_README_GENERATOR
+# NODE-README-GENERATOR
 # DESCRIPTION:
 In my opinion, every project must have a quality README. I have looked through hundreds of README  files and never would have guessed, they could be created using the command-line. In this project, I used Node.js, a command-line application that briskly generates a README.md file based on questions created by myself.
 # TABLE OF CONTENTS:
@@ -28,14 +28,12 @@ In my opinion, every project must have a quality README. I have looked through h
   Jon Snover
 
 # TEST:
-
-README-GEN.mp4
  
 I created a back-up local repository for trial and error purposes.
 
 # QUESTIONS:
   
-  https://github.com/JonSno29/NODE_README_GENERATOR
+  https://github.com/JonSno29/NODE-README-GENERATOR
   
   SnoverJon@gmail.com
   
